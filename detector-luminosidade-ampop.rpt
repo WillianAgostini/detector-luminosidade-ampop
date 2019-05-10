@@ -1,0 +1,300 @@
+## Footprint report - date ter 07 mai 2019 13:06:13 -03
+## Created by Pcbnew version kicad 5.1.1
+## Unit = mm, Angle = deg.
+
+$BeginDESCRIPTION
+
+$BOARD
+upper_left_corner 63.449999 24.104999
+lower_right_corner 215.950001 88.950001
+$EndBOARD
+
+$MODULE "U0"
+reference "U0"
+value "DHT11"
+footprint "Sensor:Aosong_DHT11_5.5x12.0_P2.54mm"
+attribut none
+position 88.900000 71.120000  orientation 0.00
+layer front
+$PAD "4"
+Shape Círculo Layer both
+position  0.000000  7.620000  size  1.500000  1.500000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Círculo Layer both
+position  0.000000  5.080000  size  1.500000  1.500000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Círculo Layer both
+position  0.000000  2.540000  size  1.500000  1.500000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Retângulo Layer both
+position  0.000000  0.000000  size  1.500000  1.500000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  U0
+
+$MODULE "RV0"
+reference "RV0"
+value "R_POT"
+footprint "Potentiometer_THT:Potentiometer_Alps_RK163_Single_Horizontal"
+attribut none
+position 124.460000 43.180000  orientation 90.00
+layer front
+$PAD "1"
+Shape Círculo Layer both
+position  0.000000  0.000000  size  2.340000  2.340000  orientation 0.00
+drill  1.300000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Círculo Layer both
+position  0.000000 -5.000000  size  2.340000  2.340000  orientation 0.00
+drill  1.300000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Círculo Layer both
+position  0.000000 -10.000000  size  2.340000  2.340000  orientation 0.00
+drill  1.300000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  RV0
+
+$MODULE "R3"
+reference "R3"
+value "R"
+footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+attribut none
+position 189.230000 60.960000  orientation 270.00
+layer front
+$PAD "2"
+Shape Oval Layer both
+position 12.700000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Círculo Layer both
+position  0.000000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R3
+
+$MODULE "R2"
+reference "R2"
+value "R"
+footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+attribut none
+position 189.230000 38.100000  orientation 270.00
+layer front
+$PAD "2"
+Shape Oval Layer both
+position 12.700000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Círculo Layer both
+position  0.000000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R2
+
+$MODULE "R1"
+reference "R1"
+value "R"
+footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+attribut none
+position 123.190000 66.040000  orientation 270.00
+layer front
+$PAD "2"
+Shape Oval Layer both
+position 12.700000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Círculo Layer both
+position  0.000000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R1
+
+$MODULE "R0"
+reference "R0"
+value "R"
+footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+attribut none
+position 88.900000 45.720000  orientation 270.00
+layer front
+$PAD "2"
+Shape Oval Layer both
+position 12.700000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Círculo Layer both
+position  0.000000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R0
+
+$MODULE "L0"
+reference "L0"
+value "LM741"
+footprint "Package_DIP:DIP-8_W10.16mm"
+attribut none
+position 138.430000 63.500000  orientation 90.00
+layer front
+$PAD "8"
+Shape Oval Layer both
+position 10.160000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Oval Layer both
+position  0.000000  7.620000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "7"
+Shape Oval Layer both
+position 10.160000  2.540000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Oval Layer both
+position  0.000000  5.080000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "6"
+Shape Oval Layer both
+position 10.160000  5.080000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position  0.000000  2.540000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "5"
+Shape Oval Layer both
+position 10.160000  7.620000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Retângulo Layer both
+position  0.000000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  L0
+
+$MODULE "D1"
+reference "D1"
+value "LED"
+footprint "LED_THT:LED_D3.0mm"
+attribut none
+position 177.800000 52.070000  orientation 180.00
+layer front
+$PAD "2"
+Shape Círculo Layer both
+position  2.540000  0.000000  size  1.800000  1.800000  orientation 0.00
+drill  0.900000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Retângulo Layer both
+position  0.000000  0.000000  size  1.800000  1.800000  orientation 0.00
+drill  0.900000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  D1
+
+$MODULE "D0"
+reference "D0"
+value "LED"
+footprint "LED_THT:LED_D3.0mm"
+attribut none
+position 177.800000 62.230000  orientation 180.00
+layer front
+$PAD "2"
+Shape Círculo Layer both
+position  2.540000  0.000000  size  1.800000  1.800000  orientation 0.00
+drill  0.900000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Retângulo Layer both
+position  0.000000  0.000000  size  1.800000  1.800000  orientation 0.00
+drill  0.900000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  D0
+
+$MODULE "J0"
+reference "J0"
+value "Conn_01x01_Male"
+footprint "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
+attribut none
+position 200.660000 50.800000  orientation 0.00
+layer front
+$PAD "1"
+Shape Retângulo Layer both
+position  0.000000  0.000000  size  0.850000  0.850000  orientation 0.00
+drill  0.500000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  J0
+
+$MODULE "J1"
+reference "J1"
+value "Conn_01x01_Male"
+footprint "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
+attribut none
+position 200.660000 60.960000  orientation 0.00
+layer front
+$PAD "1"
+Shape Retângulo Layer both
+position  0.000000  0.000000  size  0.850000  0.850000  orientation 0.00
+drill  0.500000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  J1
+
+$MODULE "J2"
+reference "J2"
+value "Conn_01x01_Male"
+footprint "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
+attribut none
+position 72.390000 78.740000  orientation 0.00
+layer front
+$PAD "1"
+Shape Retângulo Layer both
+position  0.000000  0.000000  size  0.850000  0.850000  orientation 0.00
+drill  0.500000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  J2
+
+$EndDESCRIPTION
